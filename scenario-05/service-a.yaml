@@ -1,0 +1,79 @@
+# interval in seconds after which the next scrape data point is selected
+# to disable, set to -1 or comment out. 
+# Then a new value will be presented on each /metrics query request!
+interval: 600
+
+scrapes:
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 1
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 4
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 6
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 8
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 16
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 20
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 20
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 20
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 20
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 20
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 20
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 20
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 21
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 23
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 28
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 30
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 35
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 35
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 37
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 45
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 45
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 45
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 45
+  - status_code: '200'
+    data: |
+      jira_resolved_issues_total{project="P1234",color="green"} 46
+
