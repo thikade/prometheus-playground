@@ -1,94 +1,112 @@
 scrapes:
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2002
+      jira_resolved_issues_total{project="P1234",color="green"} 1
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2003
+      jira_resolved_issues_total{project="P1234",color="green"} 4
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2008
+      jira_resolved_issues_total{project="P1234",color="green"} 6
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2024
+      jira_resolved_issues_total{project="P1234",color="green"} 8
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2026
+      jira_resolved_issues_total{project="P1234",color="green"} 16
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2026
+      jira_resolved_issues_total{project="P1234",color="green"} 20
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2026
+      jira_resolved_issues_total{project="P1234",color="green"} 20
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2026
+      jira_resolved_issues_total{project="P1234",color="green"} 20
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2027
+      jira_resolved_issues_total{project="P1234",color="green"} 20
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2027
+      jira_resolved_issues_total{project="P1234",color="green"} 20
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2028
+      jira_resolved_issues_total{project="P1234",color="green"} 20
   - status_code: '200'
     data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2031
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2044
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2044
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2044
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2048
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2053
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2056
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2058
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2062
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2062
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2062
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2065
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2073
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2080
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2080
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2080
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2080
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2080
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2080
-  - status_code: '200'
-    data: |
-      jira_resolved_issues_total{project="P1234",color="green"} 2081
+      jira_resolved_issues_total{project="P1234",color="green"} 20
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
+  # - status_code: '200'
+  #   data: |
+  #     jira_resolved_issues_total{project="P1234",color="green"} 1
