@@ -17,7 +17,7 @@ services:
       - "55055:9090"
     volumes:
       - ./prometheus.yml:/opt/prometheus/prometheus.yml
-      - promdata:/prometheus:z
+      - promdata:/prometheus
 
 volumes:
   promdata:
